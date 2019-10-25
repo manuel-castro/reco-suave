@@ -48,8 +48,8 @@ def segment(args):
             'mip': args.mip,
             'shape': bbox_size.tolist(),
             'bounds': [
-                dst_bbox.minpt.tolist(),
-                dst_bbox.maxpt.tolist(),
+                bbox.minpt.tolist(),
+                bbox.maxpt.tolist(),
                 ],
             },
         'by': args.owner,
